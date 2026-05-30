@@ -2,6 +2,25 @@
 
 A multi-page **College / University Website** built using **HTML**, **CSS**, and **Font Awesome** icons.
 
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](assets/img/screenshots/home.png)
+
+### ℹ️ About Us Page
+![About Page](assets/img/screenshots/about.png)
+
+### 📚 Courses Page
+![Courses Page](assets/img/screenshots/course.png)
+
+### 📝 Blog Page
+![Blog Page](assets/img/screenshots/blog.png)
+
+### 📞 Contact Page
+![Contact Page](assets/img/screenshots/contact.png)
+
+---
+
 ## 📁 Project Structure
 
 ```
@@ -15,16 +34,22 @@ project/
 │   ├── blog.html
 │   └── contact.html
 │
-└── assets/
-    ├── css/
-    │   └── style.css           # Main stylesheet
-    └── img/                    # All images
-        ├── meeting.png
-        ├── map.png
-        ├── cr.png
-        ├── college.png
-        ├── logo.png
-        └── ...
+├── assets/
+│   ├── css/
+│   │   └── style.css           # Main stylesheet
+│   ├── img/                    # All images
+│   │   ├── meeting.png
+│   │   ├── map.png
+│   │   ├── cr.png
+│   │   ├── college.png
+│   │   ├── logo.png
+│   │   └── ...
+│   └── img/screenshots/        # 📸 Page screenshots
+│       ├── home.png
+│       ├── about.png
+│       ├── course.png
+│       ├── blog.png
+│       └── contact.png
 ```
 
 ## 🌐 Pages
@@ -82,6 +107,31 @@ index.html  (Home)
     └── pages/contact.html
 ```
 
+## 📸 How to Add Screenshots
+
+Screenshots-ஐ எடுத்து சேர்க்க இந்த steps follow பண்ணுங்க:
+
+1. **Folder உருவாக்கவும்:**
+   ```bash
+   mkdir -p assets/img/screenshots
+   ```
+
+2. **ஒவ்வொரு page-ஐயும் browser-ல் open பண்ணி screenshot எடுக்கவும்:**
+   - `index.html` → Save as `assets/img/screenshots/home.png`
+   - `pages/About.html` → Save as `assets/img/screenshots/about.png`
+   - `pages/course.html` → Save as `assets/img/screenshots/course.png`
+   - `pages/blog.html` → Save as `assets/img/screenshots/blog.png`
+   - `pages/contact.html` → Save as `assets/img/screenshots/contact.png`
+
+3. **Git-ல் push பண்ணவும்:**
+   ```bash
+   git add assets/img/screenshots/
+   git commit -m "Add page screenshots to README"
+   git push
+   ```
+
+> 💡 **Tip:** Windows-ல் `Win + Shift + S` அல்லது Mac-ல் `Cmd + Shift + 4` use பண்ணி screenshot எடுக்கலாம். Full-page screenshot-க்கு browser DevTools → `Ctrl+Shift+P` → "Capture full size screenshot" use பண்ணுங்க!
+
 ## 🚀 GitHub Push Commands
 
 ```bash
@@ -96,5 +146,3 @@ git push -u origin main
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
-
-
