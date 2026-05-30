@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)file:///C:/multipage/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>College Home</title>
+<link rel="stylesheet" href="./home_files/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="./home_files/style.css">
+</head>
+
+<body class="home-image">
+
+    <table>
+        <tbody><tr class="home-navigation">
+		
+            <th class="one"><i class="fa-solid fa-graduation-cap"></i>&nbsp;Eduford</th>
+            <th>
+                <nav>
+                    <a href="file:///C:/multipage/index.html" class="home-color">HOME |</a>
+                    <a href="file:///C:/multipage/pages/about.html" class="home-color">ABOUT US |</a>
+                    <a href="file:///C:/multipage/pages/course.html" class="home-color">COURSES |</a>
+					<a href="file:///C:/multipage/pages/blog.html" class="home-color">BLOG |</a>
+                    <a href="file:///C:/multipage/pages/contact.html" class="home-color">CONTACT US|</a>
+					
+					
+                </nav>
+            </th>
+        </tr>
+    </tbody></table>
+	
+	
+
+<div> 
+
+    <form>
+        <input type="text" placeholder="search" class="search-bar">
+    </form>
+
+    <h1 class="home-heading">World's Biggest University</h1>
+    <h5 class="home-subheading">
+        The world's biggest university can be measured in different ways � by number of students<br> enrolled, campus size, or global reach.
+    </h5>
+
+    <div class="home-btn">Visit Us to Know more</div>
+
+
+</div></body></html>
